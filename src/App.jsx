@@ -5,9 +5,9 @@ import './App.scss'
 function App() {
 
   return (
-    <div className='App'>
-      avatar
+    <div className='app-container'>
       
+
     </div>
   )
 }
