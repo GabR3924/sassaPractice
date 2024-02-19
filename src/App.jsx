@@ -1,6 +1,4 @@
-// import { Header } from './components/Header/Header'
-// import { Hero } from './components/Hero/Hero'
-import './App.scss'
+import './sass/index.scss'
 import Client from './Components/Client'
 import Footer from './Components/Footer'
 import Free from './Components/Free'
@@ -16,16 +14,16 @@ function App() {
 
   return (
     <div className='app-container'>
-      <Realease/>
-      <Home/>
-      <ScrollToTop/>
       <Navbar/>
+      <Home/>
+      {/* <Realease/>
+      <ScrollToTop/>
       <Free/>
       <Client/>
       <SuperRare/>
       <Footer/>
       <Like/>
-      <Signup/>
+      <Signup/> */}
     </div>
   )
 }
