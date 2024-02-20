@@ -18,9 +18,11 @@ function Home() {
           <img src={home} alt="home image" />
         </div>
         <div className="ellipse-container">
+          <div className="ellipse">
           <div className="ellipse pink"></div>
           <div className="ellipse orange"></div>
         </div>
+          </div>
       </div>
     </div>
   </div>
