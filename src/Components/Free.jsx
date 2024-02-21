@@ -1,5 +1,6 @@
 import icon from '../assets/icon.png'
 import super1 from '../assets/super1.png'
+import release2 from '../assets/release2.png'
 import Card from './Card'
 
 function Free() {
@@ -34,7 +35,16 @@ function Free() {
             time={1}
           />
         </div>
-        <div className="card2"></div>
+        <div className="card2">
+        <Card
+            image={release2}
+            series="Floop Series"
+            title="Purple Man"
+            price={2.99}
+            tag={12345}
+            time={1}
+          />
+        </div>
       </div>
     </div>
   )
