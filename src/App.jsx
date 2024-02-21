@@ -16,9 +16,9 @@ function App() {
     <div className='app-container'>
       <Navbar/>
       <Home/>
+      <Free/>
       {/* <Realease/>
       <ScrollToTop/>
-      <Free/>
       <Client/>
       <SuperRare/>
       <Footer/>

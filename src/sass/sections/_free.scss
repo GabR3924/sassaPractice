@@ -1,0 +1,45 @@
+.free{
+    position: relative;
+    margin: 5rem 0;
+    .container{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        height: 25rem;
+        border-radius: 1rem;
+        overflow: hidden;
+        z-index: 1;
+        background-color: rgba(255, 255, 255, 0.112);
+        .background{
+            z-index: -1;
+            .ellipse{
+                z-index: -1;
+                top: 10%;
+                right: 20%;
+                position: absolute;
+                height: 100%;
+                width: 30rem;
+                filter: blur(100px);
+            }
+            .pink{
+                background-color: blueviolet;
+                top: -40%;
+                right: -15%;
+            }
+            .green{
+                top: 30%;
+                right: 100%;
+                background-color: var(--green);
+            }
+        }
+        .content{
+            z-index: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            padding-top: 3rem;
+            padding-left: 5rem;
+            font-size: 2rem;
+        }
+    }
+}
