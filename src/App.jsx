@@ -17,9 +17,9 @@ function App() {
       <Navbar/>
       <Home/>
       <Free/>
+      <Client/>
       {/* <Realease/>
       <ScrollToTop/>
-      <Client/>
       <SuperRare/>
       <Footer/>
       <Like/>
