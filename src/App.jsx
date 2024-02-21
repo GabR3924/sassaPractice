@@ -18,9 +18,9 @@ function App() {
       <Home/>
       <Free/>
       <Client/>
+      <SuperRare/>
       {/* <Realease/>
       <ScrollToTop/>
-      <SuperRare/>
       <Footer/>
       <Like/>
       <Signup/> */}
