@@ -22,7 +22,67 @@
                     font-weight: bold;
                 }
             }
+            .link{
+                color: black;
+                font-weight: bold;
+                text-decoration: none;
+                display: flex;
+                gap: 1rem;
+                svg{
+                    font-size: 1.2rem;
+                }
+            }
         }
+        .image{
+            position: relative;
+            overflow: hidden;
+            text-align: center;
+            z-index: 1;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            img{
+                height: 25rem;
+
+            }
+            .ellipse{
+                z-index: -1;
+                position: absolute;
+                height: 20rem;
+                width: 20rem;
+                filter: blur(100px);
+                bottom: 20%;
+                right: 0;
+            }
+            .pink{
+                
+                background-color: blueviolet;
+           
+            }
+        }
+        .card-container{
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .ellipse{
+                z-index: -1;
+                position: absolute;
+                height: 20rem;
+                width: 20rem;
+                filter: blur(100px);
+                bottom: -25%;
+                left: 0;
+            }
+            .orange{
+                
+                background-color:var(--orange);
+           
+            }
+        }
+        
     }
     .orange{
         background-color: rgba(255, 255, 255, 0.35);

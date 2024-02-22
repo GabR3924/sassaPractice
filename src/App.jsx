@@ -17,14 +17,15 @@ function App() {
       <Navbar/>
       <Home/>
       <Free/>
-      <Client/>
+      <Client/> 
       <SuperRare/>
       <Realease/>
+      <Like/>
+      <Signup/> 
+      <Footer/>
       {/* 
       <ScrollToTop/>
-      <Footer/>
-      <Like/>
-      <Signup/> */}
+    */}
     </div>
   )
 }
