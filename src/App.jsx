@@ -19,7 +19,8 @@ function App() {
       <Free/>
       <Client/>
       <SuperRare/>
-      {/* <Realease/>
+      <Realease/>
+      {/* 
       <ScrollToTop/>
       <Footer/>
       <Like/>
