@@ -13,6 +13,10 @@ import Signup from './Components/Signup'
 import SuperRare from './Components/SuperRare'
 
 function App() {
+  const [theme, setTheme] = useState("dark");
+  const changeTheme = () => {
+    theme ==="dark" ? setTheme("light") : setTheme("dark");
+  };
 
   useEffect(()=>{
     const registerAnimation = () => {
@@ -39,8 +43,8 @@ function App() {
   }, 1500);
 
   return (
-    <div className='app-container'>
-      <Navbar/>
+    <div className='app-container'data-theme={theme}>
+      <Navbar changeTheme={changeTheme} currentTheme={theme}/>
       <Home/>
       <Free/>
       <Client/> 

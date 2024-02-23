@@ -5,7 +5,7 @@ import { ImSun } from "react-icons/im";
 import { BsFillMoonFill } from "react-icons/bs";
 import logo from '../assets/logo.png'
 
-function Navbar() {
+function Navbar({changeTheme, currentTheme}) {
 
   const [navState, setNavState] = useState(false);
 
@@ -14,6 +14,15 @@ function Navbar() {
       <div className="brand-container">
         <div className="brand">
           <img src={logo} alt="logo" />
+        </div>
+        <div className="toggle-container">
+          <div className="toggle"></div>
+          <div className="mode">
+          {currentTheme === "dark" ?( <ImSun className="light"/>) 
+              :
+              ( <BsFillMoonFill className="dark"/>)
+              }
+          </div>
         </div>
 
         <div className="toggle-container">
@@ -27,6 +36,12 @@ function Navbar() {
             <li><a href="#">Aboaaut</a></li>
             <li><a href="#">Launch</a></li>
             <li><a href="#">Sing Up</a></li>
+            <li onClick={changeTheme}>
+              {currentTheme === "dark" ?( <ImSun className="light"/>) 
+              :
+              ( <BsFillMoonFill className="dark"/>)
+              }
+            </li>
           </ul>
         </div>
       </div>

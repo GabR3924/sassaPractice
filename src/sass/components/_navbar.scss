@@ -10,6 +10,14 @@ nav {
         }
         .toggle-container{
             display: none;
+            .mode{
+                .dark{
+                    color: rgb(51, 51, 51);
+                }
+                .light{
+                    color: yellow;
+                }
+            }
         }
         .links-container {
             .links{
@@ -17,6 +25,12 @@ nav {
                 display: flex;
                 gap: 4rem;
                 li {
+                    .dark{
+                        color: rgb(51, 51, 51);
+                    }
+                    .light{
+                        color: yellow;
+                    }
                     a{
                         color: var(--accent-color1);
                         text-decoration: none;
