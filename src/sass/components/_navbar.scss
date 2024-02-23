@@ -45,3 +45,15 @@ nav {
         }
     }
 }
+
+[data-theme="light"] {
+    nav{
+        .brand-container{
+            .brand{
+                img{
+                    filter: brightness(0);
+                }
+            }
+        }
+    }
+}

@@ -27,10 +27,14 @@
     &:hover {
       box-shadow: none;
     }
-    a {
+    button {
+      background: none;
+      border: none;
+      cursor: pointer;
+
       svg {
         font-size: 2rem;
-        color: var(--accent-color1);
+        color: plum;
       }
     }
   }
